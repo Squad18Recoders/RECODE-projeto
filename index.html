@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    
+    
+    <title>Viagem.com</title>
+  </head>
+  <body>
+
+        <header id="home">
+            <div class="img-wrapper">
+                <img src="img/img.jpg" alt="">
+            </div>
+            <div class="banner">
+                <h1></h1>
+                <p>Quer viajar?</p>
+                <button>Destinos</button>
+            </div>
+        </header>
+
+        <div class="checkbox-container">
+          <div class="chebox-wrapper">
+              <input type="checkbox" id="toogle">
+              <label class="checkbox" for="toogle">
+                  <div class="trace"></div>
+                  <div class="trace"></div>
+                  <div class="trace"></div>
+              </label>
+              <div class="menu"></div>
+              <nav class="menu-itens">
+                  <ul>
+                      <li>
+                          <a href="./index.html">Home</a>
+                      </li>
+                      <li>
+                          <a href="./pages/sobre.html">Sobre</a>
+                      </li>
+                      <li>
+                          <a href="./pages/promocao.html">Promoções</a>
+                      </li>
+                      <li>
+                          <a href="./destinos.html">Destinos</a>
+                      </li>
+                  </ul>
+              </nav>
+          </div>
+      </div>
+          <div class="social-media">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-github-alt"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+
+          </div>
+        </section>
+
+        <div class="sessao-projetos" id="projetos">
+          <div class="sessao-header">
+            <h1>Destinos mais procurados</h1>
+          </div>
+          <div class="projetos">
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img src="img/eua.jpg" alt="Estados Unidos" />
+              </div>
+              <div class="card-info">
+                <h2>África</h2>
+                <button class="btn">Saiba Mais</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img src="img/paris.jpg" alt="Paris" />
+              </div>
+              <div class="card-info">
+                <h2>Paris</h2>
+                <button class="btn">Saiba Mais</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img src="img/coreia.jpg" alt="Coréia do Sul" />
+              </div>
+              <div class="card-info">
+                <h2>Coréia do Sul</h2>
+                <button class="btn">Saiba Mais</button>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <section class="sessao-contato" id="contato">
+          <div class="contato-wrapper">
+            <div class="contato-left"></div>
+            <div class="contato-right">
+              <h1>Contato</h1>
+              <form>
+                <div class="input-group">
+                  <input type="text" class="field" id="nome">
+                  <label for="nome" class="field-label">Nome</label>
+                </div>
+                <div class="input-group">
+                  <input type="text" class="field" id="email">
+                  <label for="email" class="field-label">E-mail</label>
+                </div>
+                <div class="input-group">
+                  <textarea class="field" id="mensagem"></textarea>
+                  <label for="mensagem" class="field-label">Mensagem</label>
+                </div>
+                <button type="submit" class="btn btn-submit">Enviar</button>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <section class="sessao-orcamento" id="orcamento">
+          <div class="orcamento-wrapper">
+            <h1>Agende sua viagem</h1>
+            <form>
+              <label for="qtde">Quantidade de Pessoas</label>
+              <input type="number" min="1" name="qtde" id="qtde">
+              <label for="js">Viagem à trabalho</label>
+              <input type="checkbox" name="js" id="js">
+              <label>Filhos</label>
+              <div class="group-layout">
+                <div>
+                  <input type="radio" name="layout" id="layout-sim">
+                  <label for="layout-sim">Sim</label>
+                </div>
+                <div>
+                  <input type="radio" name="layout" id="layout-nao">
+                  <label for="layout-nao">Não</label>
+                </div>
+              </div>
+              <label for="prazo">Média de preço</label>
+              <input type="range" name="prazo" id="prazo" min="1" max="10">
+              <label id="preco">R$ 0,00</label>
+              <button class="btn btn-orcamento" type="submit">Enviar</button>
+            </form>
+          </div>
+        </section>
+
+        <footer>
+          <div class="footer-content">
+            <p>
+              
+            </p>
+            <div class="social-list">
+              <ul>
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+        <a href="#home" id="link-topo">
+          <i class="fas fa-arrow-up"></i>
+        </a>
+    </div>
+   </body>
+
+   <script src="script.js"></script>
+</html>
